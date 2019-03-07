@@ -1,0 +1,29 @@
+.primeira{
+	background-color: #444;
+}
+.segunda{
+	background-color: #198;
+}
+.terceira{
+	background-color: #956;
+}
+
+/* max-width  */
+@media screen and (max-width: 600px) {
+    .celular {
+        height: 20vw;
+    }
+}
+
+/* min-width */
+@media screen and (min-width: 1200px) {
+    .desktop {
+        height: 6vw;
+    }
+}
+
+/* min-width & max-width */
+@media screen and (min-width: 700px)and (max-width:900px){
+    .tablet {
+        height: 12vw;
+    }
