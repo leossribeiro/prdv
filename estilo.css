@@ -9,7 +9,7 @@
 }
 
 /* max-width  */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
     .celular {
         height: 20vw;
     }
@@ -23,7 +23,7 @@
 }
 
 /* min-width & max-width */
-@media screen and (min-width: 700px)and (max-width:900px){
+@media screen and (min-width: 600px)and (max-width:1199px){
     .tablet {
         height: 12vw;
     }
