@@ -8,22 +8,36 @@
 	background-color: #956;
 }
 
+/* Galaxy */
+@media screen and (max-width:600px){
+    .gs {
+        height: 20vw;
+    }
+}
 /* max-width  */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
     .celular {
         height: 20vw;
     }
 }
 
 /* min-width */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1367px) {
     .desktop {
         height: 6vw;
     }
 }
 
+/* ipad */
+@media screen and (min-width: 600px)and (max-width:1023px){
+    .ipad {
+        height: 12vw;
+    }
+}
+
 /* min-width & max-width */
-@media screen and (min-width: 700px)and (max-width:900px){
+@media screen and (min-width: 1024px)and (max-width:1366px){
     .tablet {
         height: 12vw;
     }
+}
