@@ -8,12 +8,14 @@
 	background-color: #956;
 }
 
+
 /* Galaxy */
 @media screen and (max-width:600px){
     .gs {
         height: 20vw;
     }
 }
+
 /* max-width  */
 @media screen and (max-width: 320px) {
     .celular {
@@ -37,6 +39,13 @@
 
 /* min-width & max-width */
 @media screen and (min-width: 1024px)and (max-width:1366px){
+    .tablet {
+        height: 12vw;
+    }
+}
+
+/* min-width & max-width */
+@media screen and (min-width: 600px)and (max-width:1199px){
     .tablet {
         height: 12vw;
     }
