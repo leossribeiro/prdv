@@ -16,13 +16,16 @@
 		</section>
 
 		<section class = "terceira gs desktop celular tablet ipad">
-
+			<button onclick="ppgn()">Confirmar</button>
 		</section>
 		<script>
 			function botao(){
 					alert("Este é um call-to-action");
 				};
+			function ppgn(){
+				if (confirm("Ir para Google.com?"))
+					window.location.replace("https://www.google.com.br/");
+			};
 		</script>
 </body>
 </html>
-
