@@ -8,22 +8,67 @@
 	background-color: #956;
 }
 
-/* max-width  */
-@media screen and (max-width: 320px) {
-    .celular {
+/* Galaxy */
+@media screen and (max-width:600px){
+  .gs {
+
         height: 20vw;
     }
+	button{
+		position:absolute;
+		left:45%;
+		margin-top:25px;
+		margin-left:-25px;
+	}
+}
+/* max-width  */
+@media screen and (max-width: 320px) {
+  .celular {
+        height: 20vw;
+    }
+	 button{
+		 position:absolute;
+		 left:45%;
+		 margin-top:25px;
+		 margin-left:-25px;
+		}
 }
 
 /* min-width */
-@media screen and (min-width: 1200px) {
-    .desktop {
+@media screen and (min-width: 1367px) {
+  .desktop {
         height: 6vw;
     }
+	button{
+		position:absolute;
+		left:50%;
+		margin-top:50px;
+		margin-left:-50px;
+		}
+}
+
+/* ipad */
+@media screen and (min-width: 600px)and (max-width:1023px){
+  .ipad {
+        height: 12vw;
+    }
+	button{
+		position:absolute;
+    left:50%;
+    margin-top:40px;
+    margin-left:-50px;
+		}
 }
 
 /* min-width & max-width */
-@media screen and (min-width: 600px)and (max-width:1199px){
-    .tablet {
+@media screen and (min-width: 1024px)and (max-width:1366px){
+  .tablet {
         height: 12vw;
     }
+	button{
+		position:absolute;
+    left:50%;
+    margin-top:45px;
+    margin-left:-50px;
+		}
+}
