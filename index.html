@@ -18,7 +18,33 @@
 		<section class = "terceira gs desktop celular tablet ipad">
 			<button onclick="ppgn()">Confirmar</button>
 		</section>
-		<script>
+		<br>
+		<form id="formulario">
+			<fieldset>
+			<legend>Planos</legend>
+			<select id="opc">
+				<option value="a">FREE</option>
+				<option value="b">PREMIUM</option>
+			</select>
+			<input type="submit" value="Submit" onclick="menu()" />
+		</fieldset>
+		</form>
+<script>
+
+var form = document.getElementById('formulario');
+var campo = document.getElementById('opc');
+
+form.addEventListener('submit', function(e) {
+		if (campo.value=='a') {
+			alert("Você é um usuário free e permanecerá nesta página");
+		}else {
+			window.location.replace("https://www.google.com.br/");
+		}
+
+    // impede o envio do form
+    e.preventDefault();
+});
+
 			function botao(){
 					alert("Este é um call-to-action");
 				};
@@ -26,6 +52,6 @@
 				if (confirm("Ir para Google.com?"))
 					window.location.replace("https://www.google.com.br/");
 			};
-		</script>
+</script>
 </body>
 </html>
