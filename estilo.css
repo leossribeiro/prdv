@@ -20,6 +20,12 @@
 		margin-top:25px;
 		margin-left:-25px;
 	}
+	form{
+		position:absolute;
+		left:45%;
+		margin-top:25px;
+		margin-left:-25px;
+	}
 }
 /* max-width  */
 @media screen and (max-width: 320px) {
@@ -32,6 +38,12 @@
 		 margin-top:25px;
 		 margin-left:-25px;
 		}
+		form{
+			position:absolute;
+			left:45%;
+			margin-top:25px;
+			margin-left:-25px;
+		 }
 }
 
 /* min-width */
@@ -45,6 +57,12 @@
 		margin-top:50px;
 		margin-left:-50px;
 		}
+		form{
+			position:absolute;
+			left:50%;
+			margin-top:50px;
+			margin-left:-50px;
+			}
 }
 
 /* ipad */
@@ -58,6 +76,12 @@
     margin-top:40px;
     margin-left:-50px;
 		}
+		form{
+			position:absolute;
+	    left:50%;
+	    margin-top:40px;
+	    margin-left:-50px;
+			}
 }
 
 /* min-width & max-width */
@@ -71,4 +95,10 @@
     margin-top:45px;
     margin-left:-50px;
 		}
+		form{
+			position:absolute;
+	    left:50%;
+	    margin-top:45px;
+	    margin-left:-50px;
+			}
 }
