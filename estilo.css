@@ -8,20 +8,15 @@
 	background-color: #956;
 }
 
+
 /* Galaxy */
 @media screen and (max-width:600px){
   .gs {
 
         height: 20vw;
     }
-	button{
-		position:absolute;
-		left:45%;
-		margin-top:25px;
-		margin-left:-25px;
-	}
-	form{
-		position:absolute;
+	.centro{
+		position: relative;
 		left:45%;
 		margin-top:25px;
 		margin-left:-25px;
@@ -32,18 +27,13 @@
   .celular {
         height: 20vw;
     }
-	 button{
-		 position:absolute;
+	 .centro{
+		 position:relative;
 		 left:45%;
 		 margin-top:25px;
 		 margin-left:-25px;
 		}
-		form{
-			position:absolute;
-			left:45%;
-			margin-top:25px;
-			margin-left:-25px;
-		 }
+
 }
 
 /* min-width */
@@ -51,18 +41,13 @@
   .desktop {
         height: 6vw;
     }
-	button{
-		position:absolute;
+	.centro{
+		position:relative;
 		left:50%;
 		margin-top:50px;
 		margin-left:-50px;
 		}
-		form{
-			position:absolute;
-			left:50%;
-			margin-top:50px;
-			margin-left:-50px;
-			}
+
 }
 
 /* ipad */
@@ -70,18 +55,13 @@
   .ipad {
         height: 12vw;
     }
-	button{
-		position:absolute;
+	.centro{
+		position:relative;
     left:50%;
     margin-top:40px;
     margin-left:-50px;
 		}
-		form{
-			position:absolute;
-	    left:50%;
-	    margin-top:40px;
-	    margin-left:-50px;
-			}
+
 }
 
 /* min-width & max-width */
@@ -89,16 +69,11 @@
   .tablet {
         height: 12vw;
     }
-	button{
-		position:absolute;
+	.centro{
+		position:relative;
     left:50%;
     margin-top:45px;
     margin-left:-50px;
 		}
-		form{
-			position:absolute;
-	    left:50%;
-	    margin-top:45px;
-	    margin-left:-50px;
-			}
+
 }
