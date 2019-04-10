@@ -7,15 +7,34 @@
 	<link href="estilo.css" rel="stylesheet"/>
 </head>
 <body>
-		<section class = "primeira gs desktop celular tablet ipad">
-
+		<section id="primeira" class = "gs desktop celular tablet ipad">
+			<select id="opcp">
+				<option value="a">Red</option>
+    		<option value="b">Green</option>
+    		<option value="c">Blue</option>
+			<select/>
+			<input type="submit" onclick="mudaBackground1()" />
 		</section>
 
-		<section class = "segunda gs desktop celular tablet ipad">
+		<section id="segunda" class = "gs desktop celular tablet ipad">
+			<select id="opcp2">
+				<option value="a">Red</option>
+    		<option value="b">Green</option>
+    		<option value="c">Blue</option>
+			<select/>
+			<input type="submit" onclick="mudaBackground2()" />
+
 			<button class="centro" onclick="botao()">Clique aqui</button>
 		</section>
 
-		<section class = "terceira gs desktop celular tablet ipad">
+		<section id="terceira" class = "gs desktop celular tablet ipad">
+			<select id="opcp3">
+				<option value="a">Red</option>
+				<option value="b">Green</option>
+				<option value="c">Blue</option>
+			<select/>
+			<input type="submit" onclick="mudaBackground3()" />
+
 			<button class="centro" onclick="ppgn()">Confirmar</button>
 		</section>
 		<br/>
@@ -26,7 +45,7 @@
 				<select/>
 				<br/>
 				<br/>
-				<input type="text" id="adc"  />
+				<input type="text" id="adc" placeholder="Opção a ser adcionada" />
 				<button onclick="myFunction()">Ok</button>
 			</fieldset>
 		</form>
